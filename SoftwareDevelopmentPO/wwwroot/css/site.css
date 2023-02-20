@@ -1,5 +1,17 @@
 html {
   font-size: 14px;
+  background-color: #97B6D1;
+}
+
+h1 { 
+  background-color: #97B6D1;
+  color: #373F00;
+}
+
+footer {
+    text-align: right; 
+    background-color: #97B6D1;
+    color: #373F00;
 }
 
 @media (min-width: 768px) {

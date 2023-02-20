@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 using SoftwareDevelopmentPO.Models;
 
 namespace SoftwareDevelopmentPO.Controllers
@@ -18,13 +19,8 @@ namespace SoftwareDevelopmentPO.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [Route("Contact")]
-        public IActionResult Contact()
+        [Route("information")]
+        public IActionResult Information()
         {
             return View();
         }
