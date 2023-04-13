@@ -31,6 +31,13 @@ namespace SoftwareDevelopmentPO.Controllers
             return View();
         }
 
+        [Route("species")]
+
+        public IActionResult Species()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
