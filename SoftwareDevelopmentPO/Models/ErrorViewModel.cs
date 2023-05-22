@@ -1,4 +1,4 @@
-namespace SoftwareDevelopmentPO.Models
+namespace GaiaZOO.Models
 {
     public class ErrorViewModel
     {

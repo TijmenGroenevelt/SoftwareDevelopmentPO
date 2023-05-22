@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
-using SoftwareDevelopmentPO.Models;
+using GaiaZOO.Models;
 
-namespace SoftwareDevelopmentPO.Controllers
+namespace GaiaZOO.Controllers
 {
     public class HomeController : Controller
     {
@@ -19,6 +19,13 @@ namespace SoftwareDevelopmentPO.Controllers
             return View();
         }
 
+        [Route("species")]
+
+        public IActionResult Species()
+        {
+            return View();
+        }
+
         [Route("information")]
         public IActionResult Information()
         {
@@ -27,13 +34,6 @@ namespace SoftwareDevelopmentPO.Controllers
 
         [Route("tickets")]
         public IActionResult Tickets()
-        {
-            return View();
-        }
-
-        [Route("species")]
-
-        public IActionResult Species()
         {
             return View();
         }

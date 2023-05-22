@@ -6,6 +6,7 @@ html {
 h1 { 
   background-color: #97B6D1;
   color: #373F00;
+  
 }
 
 footer {
@@ -28,4 +29,10 @@ html {
 body {
     margin-bottom: 60px;
     background-color: #97B6D1;
+}
+
+.logo { 
+    position: relative;
+    left: -690px;
+    top: -150px;
 }
