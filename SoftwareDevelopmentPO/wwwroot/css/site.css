@@ -11,8 +11,19 @@ h1 {
 
 h4 { 
     color: #373F00;
+    
 }
-
+.text-center {
+    position: center;
+    margin-left: 151px;
+    margin-right: 151px;
+    text-align: center;
+    
+}
+.text-center2 {
+    position: center;
+    
+}
 footer {
     text-align: right; 
     background-color: #97B6D1;
@@ -33,12 +44,13 @@ html {
 body {
     margin-bottom: 60px;
     background-color: #97B6D1;
+    
 }
 
 .logo { 
-    position: relative;
-    left: -690px;
-    top: -150px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
 }
 
 /* Slideshow container */
