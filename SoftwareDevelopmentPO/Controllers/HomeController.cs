@@ -45,6 +45,12 @@ namespace GaiaZOO.Controllers
             return View();
         }
 
+        [Route("Slang")]
+        public IActionResult Slang()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
