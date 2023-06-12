@@ -113,3 +113,25 @@ body {
     position: absolute;
     top: 0;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+   
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #4B0082;
+    color: white;
+    width: 60px;
+    height: 60px;
+}
