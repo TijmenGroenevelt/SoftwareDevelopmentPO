@@ -1,8 +1,23 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Tickets - GaiaZOO";
 }
 
 <div class="text-center">
-    <h1 class="display-4">GaiaZOO</h1>
-
+    <a asp-action="Index">
+        <img class="logo" src="https://i.postimg.cc/7PWPp3Cr/Logo.png"
+             width="122" height="151" />
+    </a>
+    <h1 class="display-4"><strong>Tickets</strong></h1>
+    <h4>Bestel hier je tickets voor een dagje naar GaiaZOO</h4>
+    <button style="vertical-align:middle"><strong><span>1 persoons ticket </span></strong></button>
+    <button style="vertical-align:middle"><strong><span>Familie dagkaart </span></strong></button>
+    <button style="vertical-align:middle"><strong><span>Grotere groepen </span></strong></button>
+    <br /><br /><br />
+    <p>Hieronder vind je de prijzen van de tickets</p>
+    <div class="t-text">    
+        <div class="t-text-l"><p>1 persoonsticket*:<br />Familie dagkaart(4 personen):<br />Familie dagkaart(5 personen):<br />Grotere groepen (meer dan 5 personen):</p> </div>
+        <div class="t-text-c"></div>
+        <div class="t-text-r"><p>€24,00 p.p.<br />€84,00<br />€104,00<br />€20,00 p.p.</p></div>
+    </div>
+    <p class="t-text"><br /><br />*Kinderen van 3 tot 9 jaar en 65+ volwassenen mogen voor €19,50 een ticket. Kinderen onder de 3 jaar mogen gratis.</p>
 </div>

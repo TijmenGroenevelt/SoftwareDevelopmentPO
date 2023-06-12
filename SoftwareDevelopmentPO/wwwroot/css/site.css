@@ -9,10 +9,14 @@ h1 {
   
 }
 
+p {
+    color: #373F00;
+}
+
 h4 { 
     color: #373F00;
-    
 }
+
 .text-center {
     position: center;
     margin-left: 151px;
@@ -23,6 +27,10 @@ h4 {
 .text-center2 {
     position: center;
     
+}
+header {
+    background-color: #97B6D1;
+    color: #373F00;
 }
 footer {
     text-align: right; 
@@ -124,14 +132,95 @@ body {
     border-radius: 50%;
 }
 
-   
-.fa:hover {
-    opacity: 0.7;
-}
-
+    .fa:hover {
+        opacity: 0.7;
+    }
 .fa-instagram {
     background: #4B0082;
     color: white;
     width: 60px;
     height: 60px;
+}
+
+button {
+    background-color: #f4511e;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 4px;
+    width: 250px;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+    button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        button span:after {
+            content: '\00bb';
+            font-size: 17px;
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    button:hover span {
+        padding-right: 25px;
+    }
+
+        button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+.button {
+    color: #FFFFFF
+}
+
+.t-text {
+    text-align: left;
+    margin-left: 100px
+}
+
+.t-text-l {
+    float: left;
+    width: 33.33%
+}
+
+.t-text-c {
+    float: none;
+    width: 33.33%
+}
+
+.t-text-r {
+    float: right;
+    width: 33.33%
+}
+
+.t-text:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.i-text {
+    float: right;
+    width: 40.00%;
+    text-align: left;
 }
