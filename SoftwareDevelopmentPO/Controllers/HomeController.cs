@@ -45,8 +45,22 @@ namespace GaiaZOO.Controllers
             return View();
         }
 
-        [Route("Slang")]
-        public IActionResult Slang()
+        [Route("tickets/1-persoons-ticket")]
+        public IActionResult Tickets1persoon()
+        {
+            return View();
+        }
+
+        [Route("tickets/familie-dagkaart")]
+
+        public IActionResult Ticketsfamiliedagkaart()
+        {
+            return View();
+        }
+
+        [Route("tickets/grotere-groepen")]
+
+        public IActionResult Ticketsgroteregroepen()
         {
             return View();
         }
